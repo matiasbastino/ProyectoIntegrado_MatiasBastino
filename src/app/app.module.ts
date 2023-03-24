@@ -14,6 +14,7 @@ import { NavbardashboardComponent } from './navbardashboard/navbardashboard.comp
 import { LogoutComponent } from '../modals/logout/logout.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { RedesdashboardComponent } from './redesdashboard/redesdashboard.component';
+import { AcercadeComponent } from './acercade/acercade.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { RedesdashboardComponent } from './redesdashboard/redesdashboard.compone
     NavbardashboardComponent,
     LogoutComponent,
     AboutmeComponent,
-    RedesdashboardComponent
+    RedesdashboardComponent,
+    AcercadeComponent
   ],
   imports: [
     BrowserModule,
