@@ -1,4 +1,4 @@
-.banner {
+/* .banner {
     width: 1920px;
     height: 450px;
     background-color: red;
@@ -10,4 +10,10 @@
         height: 100%;
         object-fit: cover;
         object-position: top;
+    } */
+.banner {
+    margin-top: -50px;
+}
+    img {
+        width: 100%;
     }
