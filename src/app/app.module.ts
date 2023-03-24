@@ -15,6 +15,7 @@ import { LogoutComponent } from '../modals/logout/logout.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { RedesdashboardComponent } from './redesdashboard/redesdashboard.component';
 import { AcercadeComponent } from './acercade/acercade.component';
+import { ExperienciaComponent } from './experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AcercadeComponent } from './acercade/acercade.component';
     LogoutComponent,
     AboutmeComponent,
     RedesdashboardComponent,
-    AcercadeComponent
+    AcercadeComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,

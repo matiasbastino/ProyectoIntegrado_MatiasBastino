@@ -1,0 +1,18 @@
+#nombre {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+#titulo {
+    text-align: center;
+    margin-top: -15px;
+}
+
+#fotoPerfil {
+    width: 70%;
+    border-radius: 100%;
+    margin-left: 2%;
+    top: 100%;
+    }
+    
