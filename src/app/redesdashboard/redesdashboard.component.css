@@ -1,0 +1,28 @@
+.list-group {
+    --bs-body-bg: transparent;
+    --bs-border-width: transparent;
+}
+
+i.fa-brands.fa-behance.fa-1xl, i.fa-brands.fa-linkedin-in.fa-1xl, i.fa-brands.fa-github.fa-1xl, i.fa-sharp.fa-solid.fa-arrow-right-from-bracket.fa-1xl {
+    color: white
+}
+
+/* Behance */
+i.fa-brands.fa-behance.fa-1xl:hover{
+    color:#0057ff
+    }
+
+/* linkedin */
+i.fa-brands.fa-linkedin-in.fa-1xl:hover{
+color:#0a66c2
+}
+
+/* github */
+i.fa-brands.fa-github.fa-1xl:hover{
+    color:aqua
+    }
+
+/* user */
+i.fa-sharp.fa-solid.fa-arrow-right-from-bracket.fa-1xl:hover{
+color:aqua
+}
