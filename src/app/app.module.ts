@@ -16,6 +16,11 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { RedesdashboardComponent } from './redesdashboard/redesdashboard.component';
 import { AcercadeComponent } from './acercade/acercade.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { EducacionComponent } from './educacion/educacion.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { SkillComponent } from './skill/skill.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -32,11 +37,16 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
     AboutmeComponent,
     RedesdashboardComponent,
     AcercadeComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    EducacionComponent,
+    SkillComponent,
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
