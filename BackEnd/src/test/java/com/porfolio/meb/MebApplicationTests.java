@@ -1,10 +1,10 @@
-package com.porfolio.matiasbastino;
+package com.porfolio.meb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MatiasbastinoApplicationTests {
+class MebApplicationTests {
 
 	@Test
 	void contextLoads() {

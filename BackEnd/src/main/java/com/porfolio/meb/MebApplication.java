@@ -1,13 +1,13 @@
-package com.porfolio.matiasbastino;
+package com.porfolio.meb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MatiasbastinoApplication {
+public class MebApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MatiasbastinoApplication.class, args);
+		SpringApplication.run(MebApplication.class, args);
 	}
 
 }

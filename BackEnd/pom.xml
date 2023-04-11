@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.porfolio</groupId>
-	<artifactId>matiasbastino</artifactId>
+	<artifactId>meb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>matiasbastino</name>
-	<description>porfolio</description>
+	<name>meb</name>
+	<description>Porfolio de MEB</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -37,8 +37,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>mssql-jdbc</artifactId>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
