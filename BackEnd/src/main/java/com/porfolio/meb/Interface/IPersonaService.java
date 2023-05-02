@@ -3,16 +3,17 @@ package com.porfolio.meb.Interface;
 import com.porfolio.meb.Entity.Persona;
 import java.util.List;
 
-public interface IPersonaSevice {
-    //traer una lista de personas
+
+public interface IPersonaService {
+    //Traer una lista de personas
     public List<Persona> getPersona();
     
-    //guardar un objeto de tipo persona
+    //Guardar un objeto de tipo Persona
     public void savePersona(Persona persona);
-            
-    // eliminar un objeto pero lo buscamos por id
+    
+    //Eliminar un objeto pero lo buscamos por ID
     public void deletePersona(Long id);
     
-    //buscar una persona por id
+    //Buscar una persona por ID
     public Persona findPersona(Long id);
 }
